@@ -1,0 +1,14 @@
+*.asv
+*.m~
+*.mat
+*.mex*
+*.slxc
+*.autosave
+*.mltbx
+*.p
+slprj/
+*.codeworkspaceroot
+*.mexa64
+*.mexw64
+.DS_Store
+Thumbs.db
