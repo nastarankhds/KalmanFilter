@@ -40,7 +40,7 @@ r
 \end{bmatrix}
 = H \begin{bmatrix} \beta\\
 r 
-\end{bmatrix} + D\,\delta
+\end{bmatrix} + D [\delta]
 $$
 
 with
