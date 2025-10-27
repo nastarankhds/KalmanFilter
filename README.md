@@ -29,7 +29,7 @@ $$
 $$
 
 $$
-\dot{r} = \frac{aC_f - bC_r}{I_z V_x}\beta +\frac{a^2C_f + b^2C_r}{I_z V_x} r - \frac{aC_f}{I_z}\delta
+\dot{r} = \frac{aC_f - bC_r}{I_z}\beta +\frac{a^2C_f + b^2C_r}{I_z V_x} r - \frac{aC_f}{I_z}\delta
 $$
 
 Measurement model (two-sensor case):
