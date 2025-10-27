@@ -25,7 +25,7 @@ Units: radians, m/s, N, kg, m, kg·m².
 **Continuous-time**
 
 $$
-\dot{\beta} = \frac{C_f+C_r}{mV_x}\beta + \left(\frac{aC_f - bC_r}{mV_x}-1\right) r - \frac{C_f}{mV_x}\delta
+\dot{\beta} = \frac{C_f+C_r}{mV_x}\beta + \left(\frac{aC_f - bC_r}{mV_x^2}-1\right) r - \frac{C_f}{mV_x}\delta
 $$
 
 $$
