@@ -21,17 +21,14 @@ Inputs: steering angle δ, yaw rate r, lateral acceleration a_y, and vehicle spe
 Units: radians, m/s, N, kg, m, kg·m².
 
 ## Bicycle model (small-angle, linear tire)
-Continuous-time:
+**Continuous-time**
 
 $$
+\dot{\beta} = -\frac{C_f+C_r}{mV_x}\beta + \left(\frac{-aC_f + bC_r}{mV_x}-1\right) r + \frac{C_f}{mV_x}\delta
+$$
 
-\dot{\beta} &= -\frac{C_f+C_r}{mV_x}\beta
-+ \left(\frac{-aC_f + bC_r}{mV_x}-1\right) r
-+ \frac{C_f}{mV_x}\delta \\
-\dot{r} &= -\frac{aC_f - bC_r}{I_z V_x}\beta
--\frac{a^2C_f + b^2C_r}{I_z V_x}\, r
-+ \frac{aC_f}{I_z}\delta
-
+$$
+\dot{r} = -\frac{aC_f - bC_r}{I_z V_x}\beta -\frac{a^2C_f + b^2C_r}{I_z V_x} r + \frac{aC_f}{I_z}\delta
 $$
 
 Measurement model (two-sensor case):
