@@ -1,6 +1,6 @@
 # KalmanFilter
 MATLAB Codes, Slalom Maneuver, CarMaker 
-# Slalom Kalman Filter (MATLAB) – β (Sideslip) Estimation
+# Kalman Filter (MATLAB) – β (Sideslip) Estimation
 
 MATLAB scripts to estimate sideslip angle (β) in a slalom maneuver using a Kalman Filter.
 
