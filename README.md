@@ -25,9 +25,9 @@ Continuous-time:
 
 $$
 \dot{\beta} = -\frac{C_f+C_r}{mV_x}\,\beta
-+ \left(\frac{-aC_f + bC_r}{mV_x}-1\right) r
++ \Big(\frac{-aC_f + bC_r}{mV_x}-1\Big) r
 + \frac{C_f}{mV_x}\,\delta
-$$  
+$$
 
 $$
 \dot{r} =
