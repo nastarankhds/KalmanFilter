@@ -48,8 +48,8 @@ with
 $$
 H=
 \begin{bmatrix}
-0 & 1\\
--\frac{C_f+C_r}{m} & \frac{-aC_f + bC_r}{m} + V_x
+\frac{C_f+C_r}{m} & \frac{aC_f - bC_r}{m V_x}\\
+0 & 1
 \end{bmatrix},
 \qquad
 D=\begin{bmatrix}0\\ \frac{C_f}{m}\end{bmatrix}.
