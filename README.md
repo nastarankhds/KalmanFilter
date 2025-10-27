@@ -38,7 +38,9 @@ $$
 \begin{bmatrix} a_y\\
 r 
 \end{bmatrix}
-= H \begin{bmatrix} \beta \\ r \end{bmatrix} + D\,\delta
+= H \begin{bmatrix} \beta\\
+r 
+\end{bmatrix} + D\,\delta
 $$
 
 with
