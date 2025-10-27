@@ -23,7 +23,7 @@ rng('default')
 % close all;
 % Loading the Data which obtained from IPG Carmaker 
 
-filepath = 'C:\Users\nkhds\Documents\MATLAB\KF Adapting\maneuvers\slalom_0.25_20kph.xlsx';
+filepath = '\slalom_0.25_20kph.xlsx';  % write down your path to the file
 
 aa = readmatrix(filepath);
 
@@ -155,3 +155,4 @@ plot(Time(1:end-1),yawrate(1:end-1),'b','linewidth',1.5);
 legend ('Estimation', 'IPG Data', 'Estimation Uncertainty')
 title 'Yawrate (rad/s)'
 grid minor
+
