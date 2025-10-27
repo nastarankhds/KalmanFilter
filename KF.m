@@ -156,3 +156,12 @@ legend ('Estimation', 'IPG Data', 'Estimation Uncertainty')
 title 'Yawrate (rad/s)'
 grid minor
 
+% ... your plotting code ...
+figure; 
+plot(t, beta_meas); grid on
+xlabel('Time [s]'); ylabel('\beta [rad]');
+title('Sideslip (β)');
+
+f = gcf;                                % grab the current figure
+exportgraphics(f, fullfile(pwd,'beta_time_plot.png'), 'Resolution', 200);
+
