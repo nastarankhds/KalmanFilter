@@ -6,7 +6,7 @@ MATLAB scripts to estimate sideslip angle (β) in a slalom using a Kalman Filter
 
 ## How to run
 In MATLAB:
-```matlab
+matlab
 addpath(genpath(pwd));   % add current folder
 KF                      % run the script
 ## What this code does
