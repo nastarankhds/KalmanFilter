@@ -89,6 +89,6 @@ P_{k|k}=(I-K_k H)P_{k|k-1}.
 $$
 
 ## Tuning tips
-- Start with $Q=\mathrm{diag}(q_\beta,q_r)$ and $R=\mathrm{diag}(r_r,r_{a_y})$.
+- Start with $Q=\mathrm{diag}(q_\beta,q_r)$ and $R=\mathrm{diag}(r_{a_y},r_r)$.
 - Increase $q_\beta$ if β reacts too slowly; increase $r_{a_y}$ if $a_y$ is noisy.
 - Yaw-rate-only case: use $H=[0\ 1]$ and scalar $R$.
