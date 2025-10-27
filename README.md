@@ -56,7 +56,7 @@ D=\begin{bmatrix}0\\
 \frac{-C_f}{m}\end{bmatrix}.
 $$
 
-Discrete model used in code:
+Discrete model:
 
 $$
 x_{k+1}=A x_k + B u_k + w_k,
