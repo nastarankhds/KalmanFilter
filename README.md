@@ -52,7 +52,8 @@ H=
 0 & 1
 \end{bmatrix},
 \qquad
-D=\begin{bmatrix}0\\ \frac{C_f}{m}\end{bmatrix}.
+D=\begin{bmatrix}0\\
+\frac{-C_f}{m}\end{bmatrix}.
 $$
 
 Discrete model used in code:
