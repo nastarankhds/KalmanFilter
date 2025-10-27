@@ -35,7 +35,7 @@ $$
 Measurement model (two-sensor case):
 
 $$
-y = \begin{bmatrix} r \\ a_y \end{bmatrix}
+\begin{bmatrix} r \\ a_y \end{bmatrix}
 = H \begin{bmatrix} \beta \\ r \end{bmatrix} + D\,\delta
 $$
 
