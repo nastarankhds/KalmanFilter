@@ -9,8 +9,6 @@ In MATLAB:
 ```matlab
 addpath(genpath(pwd));   % add current folder
 KF                      % run the script
-
-
 ## What this code does
 Estimate sideslip angle **β** during a slalom using a **linear bicycle model** and a **Kalman Filter (KF)**.  
 Inputs are steering angle δ, yaw rate r, lateral acceleration a_y, and vehicle speed Vx (constant or slowly varying).
