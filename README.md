@@ -2,7 +2,7 @@
 MATLAB Codes, Slalom Maneuver, CarMaker 
 # Slalom Kalman Filter (MATLAB) – β (Sideslip) Estimation
 
-MATLAB scripts to estimate sideslip angle (β) in a slalom using a Kalman Filter.
+MATLAB scripts to estimate sideslip angle (β) in a slalom maneuver using a Kalman Filter.
 
 ## How to run
 In MATLAB:
@@ -10,8 +10,9 @@ matlab
 addpath(genpath(pwd));   % add current folder
 KF                      % run the script
 ## What this code does
-Estimate sideslip angle **β** during a slalom using a **linear bicycle model** and a **Kalman Filter (KF)**.  
-Inputs: steering angle δ, yaw rate r, lateral acceleration a_y, and vehicle speed Vx.
+Estimate sideslip angle **β** during a slalom maneuver using a **linear bicycle model** and a **Kalman Filter (KF)**.  
+Input to the system: steering angle δ,
+measurements of Kalman Filter: yaw rate r, lateral acceleration a_y
 
 ## Signals and parameters
 - **States:** $x = [\beta,\ r]^\top$
